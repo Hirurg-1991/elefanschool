@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+	<title>Про нас</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1 , maximum-scale=1, user-scalable=0">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<link rel="stylesheet" href="css/style.min.css?_v=20230223214217">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+
+	<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__top top-header">
+				<div class="top-header__container">
+					<!-- Logo -->
+					<a class="top-header__logo" href="home.html">
+						<p>elefan school</p>
+					</a>
+
+					<div data-da=".body-header__container,991.98" class="top-header__menu menu">
+
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item"><a href="home.html" class="menu__link">Головна </a></li>
+
+								<li class="menu__item"><a href="about.html" class="menu__link">Про нас</a></li>
+
+								<li data-spollers="991.98,max" class="menu__item spollers">
+									<div class="spollers__item">
+										<button type="button" data-spoller data-spoller-close class="menu__link spollers__title">Курси</button>
+
+										<ul class=" spollers__body">
+											<li class="menu__item"><a href="well-english.html" class="menu__link">Курс англійської мови</a>
+											</li>
+
+											<li class="menu__item"><a href="well-polsky.html" class="menu__link">Курс польської мови</a>
+											</li>
+										</ul>
+
+									</div>
+								</li>
+
+								<li class="menu__item"><a href="contact.html" class="menu__link">Контакти</a></li>
+							</ul>
+						</nav>
+
+					</div>
+					<div class="top-header__inp">
+						<select name="form[]" data-class-modif="form">
+							<option value="1" selected>UA</option>
+							<option value="2">RU</option>
+							<option value="3">EN</option>
+							<option value="4">PN</option>
+						</select>
+						<button type="button" data-popup="#callback" class="top-header__callback">Передзвонити мені</button>
+						<button type="button" class="menu__icon icon-menu"><span></span></button>
+					</div>
+
+				</div>
+			</div>
+			<div class="header__body body-header">
+				<div class="body-header__container">
+					<div class="body-header__container-line"></div>
+					<a href="tel:+88007774977" class="body-header__phone icon-phone">8-800-777-49-77</a>
+					<a href="tel:+88007124917" class="body-header__phone-two icon-phone">8-800-712-49-17</a>
+
+					<ul class="body-header__social">
+
+						<li class="body-header__social-item">
+							<a href="#" class="body-header__social-link icon-viber">
+							</a>
+						</li>
+						<li class="body-header__social-item">
+							<a href="#" class="body-header__social-link icon-inst">
+							</a>
+						</li>
+						<li class="body-header__social-item">
+							<a href="#" class="body-header__social-link icon-fb">
+							</a>
+						</li>
+						<li class="body-header__social-item">
+							<a href="#" class="body-header__social-link icon-telegram">
+							</a>
+						</li>
+
+					</ul>
+					<a class="body-header__email icon-mail" href="mail:Elefan.school@gmail.com">Elefan.school@gmail.com</a>
+
+				</div>
+			</div>
+
+
+		</header>
+		<div id="callback" aria-hidden="true" class="popup">
+			<div class="popup__wrapper">
+				<div class="popup__content">
+					<button data-close type="button" class="popup__close">Х</button>
+					<p class="popup__text text">Вкажіть свій номер телефону, і ми вам передзвонимо</p>
+					<form data-ajax action="files/sendmail/sendmail.php" method="POST" class="popup__form form">
+
+						<input data-required="phone" type="tel" name="form[phone]" data-error="Error" placeholder="Введіть номер" class="popup__input input">
+						<button type="submit" class=" popup__btn button">Відправити</button>
+					</form>
+				</div>
+			</div>
+		</div>
+
+		<main class="page" id="scroll">
+			<section class="page-slider slider-block">
+				<div class="slider-block__container">
+					<div class="slider-block__slider">
+						<div class="slider-block__slide slide-block ">
+							<div class="slide-block__content">
+								<h1 class="slide-block__title title">ELEFAN SHOOL</h1>
+								<p class="slide-block__text text">Записуйтесь на пробне заняття прямо зараз</p>
+								<div class="slide-block__btns">
+									<div class="slide-block__btn"> <a data-popup="#callback" class="button">Записатись</a></div>
+
+								</div>
+							</div>
+							<div class="slide-block__img">
+								<picture><source srcset="img/group.webp" type="image/webp"><img src="img/group.jpg" alt="Kids Studing"></picture>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</section>
+			<section class="page-content">
+				<div class="page-content__container">
+					<div class="page-content__block">
+						<h2 class="page-content__block-title">ХТО МИ? ВСЕ ПРО ШКОЛУ ПОЛЬСЬКОЇ МОВИ TOGET</h2>
+						<p class="page-content__block-text text">Дозвольте представитися: Михайло та Катерина Сухожербські. Ми народилися та виросли у різних країнах, але об'єднала нас саме Польща, в якій ми створили свою школу. Це місце, де кожен у дружній, максимально комфортній обстановці може вивчати не лише мову, а й культуру, традиції, історію країни, яку вибрав для свого навчання, праці та життя. Ми разом із кожним із наших учнів ще й ще раз проходимо непростий шлях від вивчення мови до інтеграції у новому середовищі.
+							З нашою допомогою наші учні розмовляють іноземною для себе мовою вже після перших занять. Ви відчуєте себе впевнено без перекладача не лише на лекціях у школі чи університеті, а й у банку, лікарні та інших закладах. Ми станемо надійною опорою для тих, хто вирішив приїхати до нас, ми покажемо, за що саме можна полюбити Польщу та відчути себе тут, як удома. Нам часто доводиться чути слова подяки від наших випускників, які не лише стають нашими друзями, а й частиною команди нашої школи TOGETHER. Чому? Тому що у своїй роботі ми робимо ставку не лише на професіоналізм наших педагогів, а й на небайдуже ставлення до кожного учня з його проблемами, питаннями та побажаннями.
+						</p>
+						<p class="page-content__block-text text ">
+							Коли ми в 2009 році відкривали нашу школу, то, перш за все, хотіли бути корисними і водночас займатися улюбленою справою. Сьогодні ми можемо сміливо сказати: це вдалось!
+							Запрошуємо вас стати частиною нашої великої родини!
+							З любов'ю та повагою до наших учнів, засновники та керівники Школи польської мови TOGETHER, Михайло та Катерина Сухожебрські.</p>
+					</div>
+					<div class="page-content__block">
+						<h2 class="page-content__block-title">МІСІЯ</h2>
+						<p class="page-content__block-text text">Дозвольте представитися: Михайло та Катерина Сухожербські. Ми народилися та виросли у різних країнах, але об'єднала нас саме Польща, в якій ми створили свою школу. Це місце, де кожен у дружній, максимально комфортній обстановці може вивчати не лише мову, а й культуру, традиції, історію країни, яку вибрав для свого навчання, праці та життя. Ми разом із кожним із наших учнів ще й ще раз проходимо непростий шлях від вивчення мови до інтеграції у новому середовищі.
+							З нашою допомогою наші учні розмовляють іноземною для себе мовою вже після перших занять. Ви відчуєте себе впевнено без перекладача не лише на лекціях у школі чи університеті, а й у банку, лікарні та інших закладах. Ми станемо надійною опорою для тих, хто вирішив приїхати до нас, ми покажемо, за що саме можна полюбити Польщу та відчути себе тут, як удома. Нам часто доводиться чути слова подяки від наших випускників, які не лише стають нашими друзями, а й частиною команди нашої школи TOGET. Чому? Тому що у своїй роботі ми робимо ставку не лише на професіоналізм наших педагогів, а й на небайдуже ставлення до кожного учня з його проблемами, питаннями та побажаннями.
+						</p>
+						<p class="page-content__block-text text">
+							Школа польської мови TOGETHER існує для того, щоб допомагати всім учням відчути себе впевнено в Польщі: стати на ноги і заговорити чужою мовою, як рідною. Для цього ми створили кілька різноманітних програм, серед яких ви знайдете цікаву та корисну саме для вас. Також ми допомагаємо в оформленні навчальної візи або подачі документів на карту побуту (тимчасовий дозвіл на проживання) на підставі навчання, щоб дати можливість учням на законних підставах залишатися в Польщі. Також наші учні можуть підготуватися та розпочати державний іспит на рівнях В1 та В2.</p>
+					</div>
+					<div class="page-content__block">
+						<h2 class="page-content__block-title">Прийшовши до нас, ви отримаєте:</h2>
+						<ul class="page-content__block-list">
+							<li class="page-content__block-item">
+								<p>навчання у професійній школі у висококваліфікованих викладачів із величезним досвідом роботи;</p>
+							</li>
+							<li class="page-content__block-item">
+								<p>зручний розклад занять та можливість вибору графіка;</p>
+							</li>
+							<li class="page-content__block-item">
+								<p>підготовку та участь на іспиті В1 та В2;</p>
+							</li>
+							<li class="page-content__block-item">
+								<p>візову підтримку;</p>
+							</li>
+							<li class="page-content__block-item">
+								<p>можливість вивчати польську у комфортних сучасних школах у Варшаві, Кракові, Лодзі та Вроцлаві або на авторській платформі онлайн razem.co;</p>
+							</li>
+							<li class="page-content__block-item">
+								<p>нових друзів, знайомих та корисні зв'язки;</p>
+							</li>
+							<li class="page-content__block-item">
+								<p>додаткові екскурсії та заходи, що дозволяють ближче дізнатися про менталітет країни.</p>
+							</li>
+						</ul>
+					</div>
+					<div class="page-content__block">
+						<h2 class="page-content__block-title">АКРЕДИТАЦІЯ ШКОЛИ ПОЛЬСЬКОЇ МОВИ TOGET</h2>
+
+						<p class="page-content__block-text text">
+							Всі роки існування школи Together ми йшли до того, щоб стати кращими. Важливим етапом цього шляху стала офіційна інспекція представників Міністерства освіти Мазовецького воєводства (zespół akredytacyjny wysłany przez Mazowieckie Kuratorium Oświaty). Комісія ретельно перевіряла найважливіші нюанси роботи школи та показувала відповідність найвищим стандартам системи освіти Польщі. Підсумком перевірки стало те, що з 2020 року школа польської мови Together має найвищу з можливих акредитацій для закладів безперервної позашкільної форми навчань – акредитацію Мазовецького Кураторію з питань освіти (Akredytacja Mazowieckiego Kuratorium Oświaty).
+							Акредитація це насамперед гарант якості школи та професіоналізму викладацького складу.</p>
+					</div>
+					<div class="page-content__block">
+						<h2 class="page-content__block-title">СЕРТИФІКАЦІЙНИЙ ІСПИТ НА ЗНАННЯ ПОЛЬСЬКОЇ МОВИ</h2>
+						<p class="page-content__block-text text">У грудні 2020 року Міністр Науки та Вищої освіти Польщі визнав школі польської мови Together право організації державного сертифікаційного іспиту на знання польської мови на рівні В1 та В2. Це означає, що записатися, підготуватися скласти іспит стало ще простіше.
+							Ми також розробили спеціальний курс підготовки до екзамену В1, який ведуть наші досвідчені викладачі – члени екзаменаційної комісії.</p>
+					</div>
+					<div class="page-content__block">
+						<h2 class="page-content__block-title">НАШ ПОГЛЯД НА ВИВЧЕННЯ МОВИ</h2>
+						<p class="page-content__block-text text">Toget — це школа, яка вчить людей говорити іноземною мовою як рідною. Ми прагнемо зробити все можливе, щоб наші учні полюбили польську мову, а разом із нею і Польщу. Знайомим із граматикою, лексикою, паралельно розвиваємо комунікативні навички.
+							Заняття не обмежуються стінами навчальних залів; ми проводимо регулярні тематичні екскурсії, міські ігри, майстер-класи та конверсації – наші авторські знамениті розмовні клуби щоп'ятниці. Ми робимо все для того, щоб Польща стала для вас рідною, а життя тут комфортним.
+						</p>
+						<p class="page-content__block-text text">
+							Наша школа - це місце зіткнення різних культур та менталітетів, майданчиком спілкування людей, об'єднаних однією метою – здобуттям знань. Ми раді поділитися своїм досвідом та знаннями з усіма у дружній та сприятливій атмосфері.
+							Якщо у вас є питання щодо навчання в Школі польської мови TOGETHER, приходьте до нас на філіжанку ароматного чаю</p>
+					</div>
+				</div>
+			</section>
+			<section class="page-gallery">
+				<div class="page-gallery__container">
+					<h2 class="page-gallery__title title">
+						Галерея
+					</h2>
+					<!-- Оболонка слайдера -->
+					<div class="page-gallery__slider swiper-gallery">
+						<button type="button" class="page-gallery__button-prev"></button>
+						<!-- Частина слайдера, що рухається -->
+						<div class="page-gallery__wrapper swiper-wrapper">
+							<!-- Слайд -->
+							<div class="page-gallery__slide swiper-slide">
+								<div class="page-gallery__card">
+									<div class="page-gallery__card-img">
+										<picture><source srcset="img/shool-2.webp" type="image/webp"><img src="img/shool-2.jpg" alt="Shool"></picture>
+									</div>
+
+								</div>
+							</div>
+							<div class="page-gallery__slide swiper-slide">
+								<div class="page-gallery__card">
+									<div class="page-gallery__card-img">
+										<picture><source srcset="img/institut.webp" type="image/webp"><img src="img/institut.jpg" alt="Shool"></picture>
+									</div>
+
+								</div>
+							</div>
+							<div class="page-gallery__slide swiper-slide">
+								<div class="page-gallery__card">
+									<div class="page-gallery__card-img">
+										<picture><source srcset="img/polski.webp" type="image/webp"><img src="img/polski.jpg" alt="Shool"></picture>
+									</div>
+
+								</div>
+							</div>
+							<div class="page-gallery__slide swiper-slide">
+								<div class="page-gallery__card">
+									<div class="page-gallery__card-img">
+										<picture><source srcset="img/polski.webp" type="image/webp"><img src="img/polski.jpg" alt="Shool"></picture>
+									</div>
+
+								</div>
+							</div>
+							<div class="page-gallery__slide swiper-slide">
+								<div class="page-gallery__card">
+									<div class="page-gallery__card-img">
+										<picture><source srcset="img/polski.webp" type="image/webp"><img src="img/polski.jpg" alt="Shool"></picture>
+									</div>
+
+								</div>
+							</div>
+
+						</div>
+
+						<button type="button" class="page-gallery__button-next"></button>
+						<!-- Якщо потрібна навігація (ліворуч/праворуч) -->
+						<div class="page-gallery__buttons">
+
+						</div>
+
+					</div>
+				</div>
+			</section>
+			<section class="page-contact">
+				<div class="page-contact__fon">
+
+					<picture><source srcset="img/map.webp" type="image/webp"><img src="img/map.jpg" alt="maps"></picture>
+				</div>
+				<div class="page-contact__container">
+
+					<div class="page-contact__content">
+						<h2 class="page-contact__title">Контакти</h2>
+						<a href="tel:+38096765335" class="page-contact__link icon-phone">+38 096-765-335</a>
+						<a href="tel:+38056765778" class="page-contact__link icon-phone">+38 056-765-778</a>
+						<a href="tel:+38099765443" class="page-contact__link icon-phone">+38 099-765-443</a>
+						<a href="mailto:elefan.bpt@gmail.com" class="page-contact__link icon-mail">elefan.bpt@gmail.com</a>
+						<ul class="page-contact__social">
+							<li class="page-contact__social-item"><a class="page-contact__social-link icon-inst" href="#"></a></li>
+							<li class="page-contact__social-item"><a class="page-contact__social-link icon-fb" href="#"></a></li>
+							<li class="page-contact__social-item"><a class="page-contact__social-link icon-telegram" href="#"></a></li>
+							<li class="page-contact__social-item"><a class="page-contact__social-link icon-viber" href="#"></a></li>
+							<li class="page-contact__social-item"><a class="page-contact__social-link icon-viber-2" href="#"></a></li>
+						</ul>
+						<span class="page-contact__location icon-location ">Wartzawa ul.Kolernika <br>10/311 </span>
+					</div>
+
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__content">
+					<!-- Logo -->
+					<a class="footer__logo top-header__logo" href="home.html">
+						<p>elefan school</p>
+					</a>
+					<div class="footer__lists">
+						<ul class="footer__list">
+							<li class="footer__item">
+								<a href="home.html" class="footer__link">Головна </a>
+							</li>
+							<li class="footer__item">
+								<a href="about.html" class="footer__link">Про нас</a>
+							</li>
+						</ul>
+						<ul class="footer__list">
+							<li class="footer__item">
+								<a href="well-english.html" class="footer__link">Курс англійської мови</a>
+							</li>
+							<li class="footer__item">
+								<a href="well-polsky.html" class="footer__link">Курс польської мови</a>
+							</li>
+
+						</ul>
+						<ul class="footer__list">
+							<li class="footer__item">
+								<a href="contact.html" class="footer__link">Контакти</a>
+							</li>
+						</ul>
+					</div>
+
+					<div data-da=".footer__social-container,991.98,2" class="footer__scroll "> <a class="icon-scroll" href="#scroll"></a></div>
+				</div>
+				<div class="footer__bottom">
+					<a href="#" class="footer__politic">Політика конфіденційності</a>
+					<div class="footer__social-container">
+						<ul class="footer__social-list">
+							<li class="footer__social-item icon-inst"><a href="#" class="footer__social-link"></a></li>
+							<li class="footer__social-item icon-fb"><a href="#" class="footer__social-link"></a></li>
+							<li class="footer__social-item icon-telegram"><a href="#" class="footer__social-link"></a></li>
+						</ul>
+					</div>
+
+					<p class="footer__copy">© Elefan SCHOOL 2023</p>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20230223214217"></script>
+
+</body>
+
+</html>

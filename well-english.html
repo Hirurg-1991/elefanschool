@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+	<title>Well English</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1 , maximum-scale=1, user-scalable=0">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<link rel="stylesheet" href="css/style.min.css?_v=20230223214217">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+
+	<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__top top-header">
+				<div class="top-header__container">
+					<!-- Logo -->
+					<a class="top-header__logo" href="home.html">
+						<p>elefan school</p>
+					</a>
+
+					<div data-da=".body-header__container,991.98" class="top-header__menu menu">
+
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item"><a href="home.html" class="menu__link">Головна </a></li>
+
+								<li class="menu__item"><a href="about.html" class="menu__link">Про нас</a></li>
+
+								<li data-spollers="991.98,max" class="menu__item spollers">
+									<div class="spollers__item">
+										<button type="button" data-spoller data-spoller-close class="menu__link spollers__title">Курси</button>
+
+										<ul class=" spollers__body">
+											<li class="menu__item"><a href="well-english.html" class="menu__link">Курс англійської мови</a>
+											</li>
+
+											<li class="menu__item"><a href="well-polsky.html" class="menu__link">Курс польської мови</a>
+											</li>
+										</ul>
+
+									</div>
+								</li>
+
+								<li class="menu__item"><a href="contact.html" class="menu__link">Контакти</a></li>
+							</ul>
+						</nav>
+
+					</div>
+					<div class="top-header__inp">
+						<select name="form[]" data-class-modif="form">
+							<option value="1" selected>UA</option>
+							<option value="2">RU</option>
+							<option value="3">EN</option>
+							<option value="4">PN</option>
+						</select>
+						<button type="button" data-popup="#callback" class="top-header__callback">Передзвонити мені</button>
+						<button type="button" class="menu__icon icon-menu"><span></span></button>
+					</div>
+
+				</div>
+			</div>
+			<div class="header__body body-header">
+				<div class="body-header__container">
+					<div class="body-header__container-line"></div>
+					<a href="tel:+88007774977" class="body-header__phone icon-phone">8-800-777-49-77</a>
+					<a href="tel:+88007124917" class="body-header__phone-two icon-phone">8-800-712-49-17</a>
+
+					<ul class="body-header__social">
+
+						<li class="body-header__social-item">
+							<a href="#" class="body-header__social-link icon-viber">
+							</a>
+						</li>
+						<li class="body-header__social-item">
+							<a href="#" class="body-header__social-link icon-inst">
+							</a>
+						</li>
+						<li class="body-header__social-item">
+							<a href="#" class="body-header__social-link icon-fb">
+							</a>
+						</li>
+						<li class="body-header__social-item">
+							<a href="#" class="body-header__social-link icon-telegram">
+							</a>
+						</li>
+
+					</ul>
+					<a class="body-header__email icon-mail" href="mail:Elefan.school@gmail.com">Elefan.school@gmail.com</a>
+
+				</div>
+			</div>
+
+
+		</header>
+		<div id="callback" aria-hidden="true" class="popup">
+			<div class="popup__wrapper">
+				<div class="popup__content">
+					<button data-close type="button" class="popup__close">Х</button>
+					<p class="popup__text text">Вкажіть свій номер телефону, і ми вам передзвонимо</p>
+					<form data-ajax action="files/sendmail/sendmail.php" method="POST" class="popup__form form">
+
+						<input data-required="phone" type="tel" name="form[phone]" data-error="Error" placeholder="Введіть номер" class="popup__input input">
+						<button type="submit" class=" popup__btn button">Відправити</button>
+					</form>
+				</div>
+			</div>
+		</div>
+
+		<main class="page" id="scroll">
+			<section class="page-slider slider-block">
+				<div class="slider-block__container">
+					<div class="slider-block__slider">
+						<div class="slider-block__slide slide-block ">
+							<div class="slide-block__content">
+								<h1 class="slide-block__title title">Курс
+									англійської
+									мови</h1>
+								<p class="slide-block__text text">Пройдіть тест на визначення рівня мови, і ми підберемо
+									програму для вас</p>
+								<div class="slide-block__btns">
+									<div class="slide-block__btn"> <a data-popup="#callback" class="button">Записатись</a></div>
+									<div class="slide-block__btn"> <a href="#curs" class="button">Пройти тест</a></div>
+
+								</div>
+
+
+							</div>
+							<div class="slide-block__img">
+								<picture><source srcset="img/group.webp" type="image/webp"><img src="img/group.jpg" alt="Kids Studing"></picture>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</section>
+			<section class="page-statistic">
+				<div class="page-statistic__container">
+					<div class="page-statistic__content  ">
+						<p class="page-statistic__content-text text icon-cub-1">Знання англійської мови зараз – це практично обов'язкова навичка для всіх, хто хоче бути успішним та затребуваним. Тому, навіть опинившись у Польщі, варто замислитись не лише про вивчення польської, а й про те, щоб почати посилено займатися англійською. Адже саме цією мовою проводиться величезна кількість важливих ділових переговорів, і складаються програми навчання у багатьох вищих навчальних закладах. Знання англійської - це квиток у світ, де стираються кордони та мовні бар'єри, а все залежить виключно від вас самих.</p>
+						<p class="page-statistic__content-text text icon-cub-3">Розуміючи важливість англійської, а також намагаючись допомогти своїм студентам краще адаптуватися до життя в ЄС, школа Elefan School розробила унікальні курси англійської мови у Польщі – як інтенсивні (що передбачають місяць прискореного навчання), так і семестральні. Для зручності наших учнів заняття можуть проводитися як онлайн, так і безпосередньо в класах.</p>
+
+
+					</div>
+				</div>
+			</section>
+			<section class="page-formats">
+				<div class="page-formats__container">
+					<div class="page-formats__block">
+						<div class="page-formats__content">
+							<h2 class="page-formats__content-title title">Онлайн курс</h2>
+							<ul class="page-formats__content-list ">
+								<li class="page-formats__content-item">
+									Рівень: A1/А2/В1/B2/C1
+								</li>
+								<li class="page-formats__content-item">
+									Від 1 місяця
+								</li>
+								<li class="page-formats__content-item">
+									Від 3 разів на тиждень
+								</li>
+							</ul>
+							<div data-popup="#callback" class="page-formats__content-btn">
+								<a class="button page-formats__content-link" href="#">Записатись</a>
+							</div>
+
+						</div>
+					</div>
+					<div class="page-formats__block page-formats__block--accent">
+						<div class="page-formats__content">
+							<h2 class="page-formats__content-title title">Інтенсивний
+								курс</h2>
+							<ul class="page-formats__content-list ">
+								<li class="page-formats__content-item">
+									Рівень: A1/А2/В1/B2/C1
+								</li>
+								<li class="page-formats__content-item">
+									2 тижні
+								</li>
+								<li class="page-formats__content-item">
+									62 години
+								</li>
+							</ul>
+							<div data-popup="#callback" class="page-formats__content-btn">
+								<a class="button page-formats__content-link" href="#">Записатись</a>
+							</div>
+
+						</div>
+					</div>
+					<div class="page-formats__block ">
+						<div class="page-formats__content">
+							<h2 class="page-formats__content-title title">Офлайн курс</h2>
+							<ul class="page-formats__content-list ">
+								<li class="page-formats__content-item">
+									Рівень: A1/А2/В1/B2/C1
+								</li>
+								<li class="page-formats__content-item">
+									Від 1 місяця
+								</li>
+								<li class="page-formats__content-item">
+									Від 3 разів на тиждень
+								</li>
+							</ul>
+							<div data-popup="#callback" class="page-formats__content-btn">
+								<a class="button page-formats__content-link" href="#">Записатись</a>
+							</div>
+
+						</div>
+					</div>
+
+				</div>
+			</section>
+
+			<section class="page-quize " id="curs">
+				<div class="page-quize__container">
+					<h2 class="page-quize__title title">Дізнайся про свій рівень мови </h2>
+					<h3 class="page-quize__subtitle title">прямо зараз</h3>
+					<p class="page-quize__text text">Пройдіть тест і ми підберемо вам програму навчання для вашого рівня
+					</p>
+					<div data-tabs class="page-quize__tabs">
+						<div class="page-quize__body">
+							<form class="page-quize__form quiz">
+								<div class="quiz__content">
+								</div>
+							</form>
+						</div>
+
+						<div class="page-quize__cub page-quize__cub--big"></div>
+						<div class="page-quize__cub page-quize__cub--top"></div>
+					</div>
+				</div>
+			</section>
+			<section class="page-news">
+				<div class="page-news__container">
+					<h2 class="page-news__title title">
+						Новости
+					</h2>
+					<!-- Оболонка слайдера -->
+					<div class="page-news__slider swiper-news">
+						<!-- Частина слайдера, що рухається -->
+						<div class="page-news__wrapper swiper-wrapper">
+							<!-- Слайд -->
+							<div class="page-news__slide swiper-slide">
+								<div class="page-news__card">
+									<div class="page-news__card-img">
+										<picture><source srcset="img/shool-2.webp" type="image/webp"><img src="img/shool-2.jpg" alt="Shool"></picture>
+									</div>
+									<h2 class="page-news__card-title title">Новина </h2>
+									<p class="page-news__card-text">Добірка кращих програм англійської для початківців
+									</p>
+									<a href="#" class="page-news__card-link">Детальніше</a>
+								</div>
+							</div>
+							<div class="page-news__slide swiper-slide">
+								<div class="page-news__card">
+									<div class="page-news__card-img">
+										<picture><source srcset="img/institut.webp" type="image/webp"><img src="img/institut.jpg" alt="Shool"></picture>
+									</div>
+									<h2 class="page-news__card-title title">Новина</h2>
+									<p class="page-news__card-text">Курс "Effortless English" – Hoge</p>
+									<a href="#" class="page-news__card-link">Детальніше</a>
+								</div>
+							</div>
+							<div class="page-news__slide swiper-slide">
+								<div class="page-news__card">
+									<div class="page-news__card-img">
+										<picture><source srcset="img/polski.webp" type="image/webp"><img src="img/polski.jpg" alt="Shool"></picture>
+									</div>
+									<h2 class="page-news__card-title title">Новина</h2>
+									<p class="page-news__card-text">Кількість запитів від українців, які перебувають в
+										Польщі, на вивчення польської мови зросла у 2,4 раза</p>
+									<a href="#" class="page-news__card-link">Детальніше</a>
+								</div>
+							</div>
+							<div class="page-news__slide swiper-slide">
+								<div class="page-news__card">
+									<div class="page-news__card-img">
+										<picture><source srcset="img/polski.webp" type="image/webp"><img src="img/polski.jpg" alt="Shool"></picture>
+									</div>
+									<h2 class="page-news__card-title title">Новина</h2>
+									<p class="page-news__card-text">Курс Англійської Мови Для Початківців Від Оксани
+										Долинка</p>
+									<a href="#" class="page-news__card-link">Детальніше</a>
+								</div>
+							</div>
+							<div class="page-news__slide swiper-slide">
+								<div class="page-news__card">
+									<div class="page-news__card-img">
+										<picture><source srcset="img/polski.webp" type="image/webp"><img src="img/polski.jpg" alt="Shool"></picture>
+									</div>
+									<h2 class="page-news__card-title title">Новина</h2>
+									<p class="page-news__card-text">"Польська без кордонів"</p>
+									<a href="#" class="page-news__card-link">Детальніше</a>
+								</div>
+							</div>
+
+						</div>
+
+						<!-- Якщо потрібна навігація (ліворуч/праворуч) -->
+						<div class="page-news__buttons">
+							<button type="button" class="page-news__button-prev"></button>
+							<button type="button" class="page-news__button-next"></button>
+						</div>
+
+					</div>
+				</div>
+			</section>
+			<section class="page-questions">
+				<div class="page-questions__container">
+					<div class="page-questions__content">
+						<h2 class="page-questions__title title">Залишились питання?</h2>
+						<p class="page-questions__text text">Залишіть ваш номер для зв'язку, і ми передзвонимо вам!</p>
+						<form data-ajax class="page-questions__form form" action="files/sendmail/sendmail.php" method="POST">
+							<input type="text" name="form[name]" data-error="Error" placeholder="Ваше ім'я" class="input page-questions__input">
+							<input type="tel" name="form[phone]" data-error="Error" placeholder="Ваш номер телефону" class="input page-questions__input">
+							<button type="submit" class="button page-questions__button">Записатись</button>
+						</form>
+					</div>
+
+				</div>
+			</section>
+			<section class="page-contact">
+				<div class="page-contact__fon">
+
+					<picture><source srcset="img/map.webp" type="image/webp"><img src="img/map.jpg" alt="maps"></picture>
+				</div>
+				<div class="page-contact__container">
+
+					<div class="page-contact__content">
+						<h2 class="page-contact__title">Контакти</h2>
+						<a href="tel:+38096765335" class="page-contact__link icon-phone">+38 096-765-335</a>
+						<a href="tel:+38056765778" class="page-contact__link icon-phone">+38 056-765-778</a>
+						<a href="tel:+38099765443" class="page-contact__link icon-phone">+38 099-765-443</a>
+						<a href="mailto:elefan.bpt@gmail.com" class="page-contact__link icon-mail">elefan.bpt@gmail.com</a>
+						<ul class="page-contact__social">
+							<li class="page-contact__social-item"><a class="page-contact__social-link icon-inst" href="#"></a></li>
+							<li class="page-contact__social-item"><a class="page-contact__social-link icon-fb" href="#"></a></li>
+							<li class="page-contact__social-item"><a class="page-contact__social-link icon-telegram" href="#"></a></li>
+							<li class="page-contact__social-item"><a class="page-contact__social-link icon-viber" href="#"></a></li>
+							<li class="page-contact__social-item"><a class="page-contact__social-link icon-viber-2" href="#"></a></li>
+						</ul>
+						<span class="page-contact__location icon-location ">Wartzawa ul.Kolernika <br>10/311</span>
+					</div>
+
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__content">
+					<!-- Logo -->
+					<a class="footer__logo top-header__logo" href="home.html">
+						<p>elefan school</p>
+					</a>
+					<div class="footer__lists">
+						<ul class="footer__list">
+							<li class="footer__item">
+								<a href="home.html" class="footer__link">Головна </a>
+							</li>
+							<li class="footer__item">
+								<a href="about.html" class="footer__link">Про нас</a>
+							</li>
+						</ul>
+						<ul class="footer__list">
+							<li class="footer__item">
+								<a href="well-english.html" class="footer__link">Курс англійської мови</a>
+							</li>
+							<li class="footer__item">
+								<a href="well-polsky.html" class="footer__link">Курс польської мови</a>
+							</li>
+
+						</ul>
+						<ul class="footer__list">
+							<li class="footer__item">
+								<a href="contact.html" class="footer__link">Контакти</a>
+							</li>
+						</ul>
+					</div>
+
+					<div data-da=".footer__social-container,991.98,2" class="footer__scroll "> <a class="icon-scroll" href="#scroll"></a></div>
+				</div>
+				<div class="footer__bottom">
+					<a href="#" class="footer__politic">Політика конфіденційності</a>
+					<div class="footer__social-container">
+						<ul class="footer__social-list">
+							<li class="footer__social-item icon-inst"><a href="#" class="footer__social-link"></a></li>
+							<li class="footer__social-item icon-fb"><a href="#" class="footer__social-link"></a></li>
+							<li class="footer__social-item icon-telegram"><a href="#" class="footer__social-link"></a></li>
+						</ul>
+					</div>
+
+					<p class="footer__copy">© Elefan SCHOOL 2023</p>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20230223214217"></script>
+
+</body>
+
+</html>
